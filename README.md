@@ -1,3 +1,16 @@
+<div align="center">
+<h3>Extending Large Vision-Language Model for <br>Diverse Interactive Tasks in Autonomous Driving</h3>
+
+Zongchuang Zhao<sup>1\*</sup>, Haoyu Fu<sup>1\*</sup>, Dingkang Liang<sup>1†</sup>, Xin Zhou<sup>1</sup>, Dingyuan Zhang<sup>1</sup>, Hongwei Xie<sup>2</sup>,  Bing Wang<sup>2</sup>, Xiang Bai<sup>1</sup>
+
+<sup>1</sup>  Huazhong University of Science & Technology, <sup>2</sup>  Xiaomi EV 
+
+(\*) Equal contribution. (†) Project leader.
+
+<a href="https://arxiv.org/abs/2505.08725"><img src='https://img.shields.io/badge/arXiv-DriveMonkey-red' alt='Paper PDF'></a>
+<a href="https://github.com/zc-zhao/DriveMonkey"><img src='https://img.shields.io/badge/Project_Page-DriveMonkey-green' alt='Project Page'></a>
+</div>
+
 # DriveMonkey
 
 ## NuInteract Dataset
@@ -61,3 +74,15 @@ All files follow the conversation format of [InternVL](https://github.com/OpenGV
 ## Acknowledgement
 
 This project is based on InternVL ([code](https://github.com/OpenGVLab/InternVL)), nuScene ([homepage](https://www.nuscenes.org/), [code](https://github.com/nutonomy/nuscenes-devkit)). Thanks for their wonderful works.
+
+## Citation
+If this work is helpful for your research, please consider citing:
+
+```
+@article{zhao2025extending,
+  title={Extending Large Vision-Language Model for Diverse Interactive Tasks in Autonomous Driving},
+  author={Zhao, Zongchuang and Fu, Haoyu and Liang, Dingkang and Zhou, Xin and Zhang, Dingyuan and Xie, Hongwei and Wang, Bing and Bai, Xiang},
+  journal={arXiv preprint arXiv:2505.08725},
+  year={2025}
+}
+```
