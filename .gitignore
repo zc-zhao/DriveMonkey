@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+NuInteract/
+.vscode/
+weight/
+test/
+nuscenes/
+NuInteract.zip
+test.sh

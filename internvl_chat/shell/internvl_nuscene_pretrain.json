@@ -1,0 +1,9 @@
+{
+    "nuscene_cap_194k": {
+      "root": "./nuscenes/samples",
+      "annotation": "your caption data json path",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": "data_length"
+    }
+}

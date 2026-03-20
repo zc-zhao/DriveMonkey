@@ -1,0 +1,40 @@
+{
+
+  "nuscene_2dqa_all_frame_1M_2": {
+    "root": "./nuscenes/samples",
+    "annotation": "Nuinteract 2D vision grounding pkl path",
+    "data_augment": false,
+    "repeat_time": 1,
+    "in_repeat_time": 3,
+    "length": "data_length"
+},         
+  "nuscene_3dqa_all_frame_225k": {
+  "root": "./nuscenes/samples",
+  "annotation": "Nuinteract 3D vision grounding pkl path",
+  "data_augment": false,
+  "repeat_time": 1,
+  "in_repeat_time":3,
+  "length": "data_length"
+  },    
+  "nuscene_vgqa_all_frame_225k": {
+    "root": "./nuscenes/samples",
+    "annotation": "Nuinteract Region Description and Prediction pkl path",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "data_length"
+  },
+  "nuscene_cap_194k": {
+    "root": "./nuscenes/samples",
+    "annotation": "Nuinteract caption path",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "data_length"
+  },
+  "nuscene_2dqa_planning": {
+    "root": "./nuscenes/samples",
+    "annotation": "Nuinteract planning pkl path",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "data_length"
+  }
+}

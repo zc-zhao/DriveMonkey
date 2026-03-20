@@ -60,7 +60,7 @@ def collect_cap(cap_path, save_path):
     '''
     cap_data = []
     for cap_json in cap_json_list:
-        cap = json.load(open(os.path.join(cap_path, cap_json), 'r'))
+        cap = json.load(open(cap_json, 'r'))
         cap_data.extend(cap)
 
     print(f'Loaded {len(cap_data)} samples from {len(cap_json_list)} json files.')
@@ -110,5 +110,4 @@ def convert_cap_to_internvl_format(cap_paths, save_path):
 
 if __name__ == '__main__':
     collect_cap(cap_path, 'all_caption.json')
-    # convert_cap_to_llava_format('all_caption.json', 'llava_caption.json')
-    convert_cap_to_internvl_format(cap_path, 'llava_caption.json')
+    convert_cap_to_internvl_format('all_caption.json', 'internvl_caption.json')
