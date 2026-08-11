@@ -1,3 +1,5 @@
+
+
 <div align="center">
 <h3>Extending Large Vision-Language Model for <br>Diverse Interactive Tasks in Autonomous Driving</h3>
 
@@ -5,7 +7,7 @@ Zongchuang Zhao<sup>1\*</sup>, Haoyu Fu<sup>1\*</sup>, Dingkang Liang<sup>1†</
 
 <sup>1</sup>  Huazhong University of Science & Technology, <sup>2</sup>  Xiaomi EV 
 
-(\*) Equal contribution. (†) Project leader.
+(*) Equal contribution. (†) Project leader.
 
 <a href="https://arxiv.org/abs/2505.08725"><img src='https://img.shields.io/badge/arXiv-DriveMonkey-red' alt='Paper PDF'></a>
 <a href="https://github.com/zc-zhao/DriveMonkey"><img src='https://img.shields.io/badge/Project_Page-DriveMonkey-green' alt='Project Page'></a>
@@ -108,7 +110,7 @@ bash ./shell_nuscene/internvl2.0/internvl2_2b_internlm2_1_8b_nuscene/internvl2_2
 ```
 ### Multi-Task Finetune
 ```
-bash ./shell_nuscene/internvl2.0/internvl2_1b_qwen2_0_5b_nuscene/internvl2_1b_qwen2_0_5b_dynamic_res_nuscene_finetune_vgtextx3_rgtextx1_3dx3_capx1_planx1_loadoffcialweight.sh 1 8 output_dir
+bash ./shell_nuscene/internvl2.0/internvl2_1b_qwen2_0_5b_nuscene/internvl2_1b_qwen2_0_5b_dynamic_res_nuscene_finetune_vgtextx3_rgtextx1_3dx3_capx1_planx1_loadofficialweight.sh 1 8 output_dir
 ```
 
 ## Evaluation
